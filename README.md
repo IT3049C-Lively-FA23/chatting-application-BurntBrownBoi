@@ -16,11 +16,16 @@ Instructions to this assignment can be found [here](https://reedws.github.io/IT3
 
 how many points out of 20 do you deserve on this assignment: 
 
+Again, besides the late submission because of my poo-poo windows 11 installation issues, a solid 18.5462x10^-23 out of 20
+
 ## Self-Reflection:
 <!-- Write your self-reflection under this line -->
+Im not gonna lie, I feel like JQuery requires less lines but fetch api seems more reliable. I would know, I was asked to use that when making my first swagger app at work as my intern project. so this assignment helped me snap back to reality.
 
 ### How long it took me to finish this?
 
+45 mins. literally.
 
 ## Discussion Questions:
 1. What does the bootstrap `display-4` class do?
+Looks like it's used for larger headings but still not large compared to 'display-1'
