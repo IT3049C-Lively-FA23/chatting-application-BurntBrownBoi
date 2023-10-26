@@ -90,3 +90,20 @@ sendButton.addEventListener(`click`, function(sendButtonClickEvent) {
   sendMessages(sender,message);
   myMessage.value = ``;
 });
+
+
+if (localStorage.getItem(`username`)) {
+  nameInput.value = localStorage.getItem(`username`);
+  myMessage.removeAttribute(`disabled`);
+}
+
+const saveUsernameButton = document.getElementById(`save-username`);
+
+saveUsernameButton.addEventListener(`click`, function() {
+  localStorage.setItem(`username`, nameInput.value);
+  if (nameInput.value) {
+    myMessage.disabled = false; 
+  } else {
+    myMessage.disabled = true;  
+  }
+});
